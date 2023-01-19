@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-multiplayer-game"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Sieczczyński <j.sieczczynski@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "python_multiplayer_game" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
